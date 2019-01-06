@@ -1,0 +1,3 @@
+name: LitSpawners
+version: ${project.version}
+main: me.recro.litspawners.litspawners.LitSpawners

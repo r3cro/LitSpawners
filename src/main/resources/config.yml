@@ -1,0 +1,33 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                    LitSpawners By recro              | #
+# |                    Discord: recro#7292               | #
+# +------------------------------------------------------+ #
+############################################################
+
+# SETTINGS
+# no-tax-time: 300 is in SECONDS
+radius: 320
+no-tax-time: 300
+worlds-spawning-enabled:
+- world
+- testone
+- testtwo
+spawner-tax:
+  worldname:
+    world:
+      skeleton: 20000
+      creeper: 20000
+    testone:
+      skeleton: 20000
+      creeper: 200000
+    testtwo:
+      skeleton: 20000
+
+# MESSAGES
+mined: "&c&l-$%cost%%newline%&7This 10% value fee is applied whenever you collect a spawner!"
+placed: "&e&l[!] &eYou will be fined $%cost% for mining this spawner!"
+enemy-close: "&e&l[!] &eThere is an enemy within &6%radius% &eblocks!"
+no-money: '&e&l[!] &eYou do not have $%cost% to mine this spawner!'
+tax-info: "&e&l[!] &eYou will be fined $%cost% for mining this spawner in future!"
+no-tax: "This item has been excluded from being taxed"
